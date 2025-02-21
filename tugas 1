@@ -1,0 +1,43 @@
+print("TABEL KEBENARAN KONJUNGSI")
+print("-------------------------")
+print("\n|P\t|Q\t|P and Q|")
+print("-------------------------")
+#Menggunaka Operator Logika and
+for P in [True,False]:
+    for Q in [True,False]:
+        konjungsi = P and Q
+        print(f"{P}\t{Q}\t{konjungsi}")
+print("-------------------------")
+
+print("TABEL KEBENARAN DISJUNGSI")
+print("-------------------------")       
+print("\n|P\t|Q\t|P or Q|") 
+print("-------------------------")       
+#Menggunaka Operator Logika or
+for P in [True,False]:
+    for Q in [True,False]:
+        disjungsi = P or Q
+        print(f"{P}\t{Q}\t{disjungsi}")
+print("-------------------------")
+
+print("TABEL KEBENARAN NEGASI")
+print("-------------------------")       
+print("\n|P\t|Q\t|P not Q|") 
+print("-------------------------")       
+#Menggunaka Operator Logika not
+for P in [True,False]:
+    for Q in [True,False]:
+        negasi = not P
+        print(f"{P}\t{Q}\t{negasi}")
+print("-------------------------")
+
+print("TABEL KEBENARAN NEGASI")
+print("-------------------------")       
+print("\n|P\t|Q\t|-P or Q|") 
+print("-------------------------")       
+#Menggunaka Operator Logika not or
+for P in [True,False]:
+    for Q in [True,False]:
+        negasisi = not P or Q
+        print(f"{P}\t{Q}\t{negasi}")
+print("-------------------------")
