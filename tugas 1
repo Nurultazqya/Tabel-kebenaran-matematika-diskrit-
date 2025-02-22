@@ -29,15 +29,15 @@ for P in [True,False]:
     for Q in [True,False]:
         negasi = not P
         print(f"{P}\t{Q}\t{negasi}")
-print("-------------------------")
+print("---------------------------")
 
-print("TABEL KEBENARAN NEGASI")
-print("-------------------------")       
+print("TABEL KEBENARAN -P DISJUNGSI Q")
+print("------------------------------")       
 print("\n|P\t|Q\t|-P or Q|") 
-print("-------------------------")       
+print("------------------------------")       
 #Menggunaka Operator Logika not or
 for P in [True,False]:
     for Q in [True,False]:
-        negasisi = not P or Q
-        print(f"{P}\t{Q}\t{negasi}")
-print("-------------------------")
+        disjungsi = not P or Q
+        print(f"{P}\t{Q}\t{disjungsi}")
+print("------------------------------")
